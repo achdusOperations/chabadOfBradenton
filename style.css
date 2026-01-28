@@ -25,7 +25,16 @@ text-transform:none !important;
     .sneak-peek-container .sneak-peek-item, .sneak_peek a.thumbnail img, .sneak-peek-container .sneak_peek .thumbnail{
         border-radius:25px !important;
     }
+
+    /*upcoming events*/
+
     /* change image for upcoming events*/
     .banner .widget_content.index_format .item .icon img{
         background-image: url("https://chabadofbradenton.com/media/images/1355/YUbE13556801.png");
     }
+    /*button*/
+    .banner .widget_content.index_format .item .readMore, .banner .widget_content.index_format .item .readMore:hover{
+        background:#fff !important;
+        color:red !important;
+        border-radius:25px !important
+    };
