@@ -16,3 +16,8 @@
 font-family: 'Maven Pro', sans-serif !important;
 text-transform:none !important;
     }
+
+    /*making buttons round edges*/
+    .hp_subscribe .wrapper #formContainer fieldset input[type=submit] ,.message .wrapper .widget_content .readMore, .hp-table .hp-row-first .promo_slider .slider .cycle-caption .readMore, .latest_photos .readMore span, body.cco_body #tabContentMain .co_menu_item.donate_link span.parent a, .hp-table>:not(:first-child) .promo_slider .cycle-caption .readMore {
+    border-radius: 25px !important;
+    }
