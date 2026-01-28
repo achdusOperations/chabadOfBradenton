@@ -35,9 +35,11 @@ text-transform:none !important;
     /*button*/
     .banner .widget_content.index_format .item .readMore, .banner .widget_content.index_format .item .readMore:hover{
         background:#fff !important;
-        color:red !important;
-        border-radius:25px !important
+        color: #91183b !important;
+        border-radius:25px !important;
+        border:2px solid #91183b !important;
     };
+    
     /*background*/
     .banner .widget_content.index_format .item{
         background: radial-gradient(circle,rgba(245, 119, 33, 1) 0%, rgba(145, 24, 59, 0.87) 100%);
