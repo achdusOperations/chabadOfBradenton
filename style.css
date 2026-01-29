@@ -46,15 +46,11 @@ text-transform:none !important;
     .banner .widget_content.index_format .item{
         background: #F57721 !important;
 background: linear-gradient(90deg, rgba(245, 119, 33, 1) 0%, rgba(145, 24, 59, 1) 100%) !important;
-    }
-
-    /*i would like to*/
-    .widget-4.icon.custom.v380.feed.icon-updates{
-        background: #F57721 !important;
-background: linear-gradient(90deg, rgba(245, 119, 33, 1) 0%, rgba(145, 24, 59, 1) 100%) !important;
 border-radius:25px !important;
-
     }
+    
+
+   
 
     /*icons change color through this website https://angel-rs.github.io/css-color-filter-generator/*/
     .icon .chabad_updates .widget_content .item .icon img, .icon .widget_content .item .icon img{
@@ -69,7 +65,13 @@ border-radius:25px !important;
     .icon .chabad_updates .widget_content .item .title, .icon .chabad_updates .widget_content .item .title a, .icon .widget_content .item .title, .icon .widget_content .item .title a{
         color:#fff !important;
     }
+ /*i would like to*/
+ .widget-4.icon.custom.v380.feed.icon-updates{
+    background: #F57721 !important;
+background: linear-gradient(90deg, rgba(245, 119, 33, 1) 0%, rgba(145, 24, 59, 1) 100%) !important;
 
+
+}
     /*slides you have to copy selector of the slide every time otherwhise hero slides also get changed*/
 
     
