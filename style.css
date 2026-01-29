@@ -57,10 +57,8 @@ border-radius:25px !important;
 
     /*slides*/
 
-    .widget_content.html_format .slides{
-        border-radius:0px !important;
-    }
-    .widget-4.promo_slider.custom.v380.feed .slides{
+    
+    #BodyContainer > div > div.g960 > div > div.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.no_margin.g960.no_margin > div > div:nth-child(7) > div > div > div > div.slider > div.slides{
         border-radius:25px !important;
     }
     .cycle-caption{
