@@ -49,10 +49,14 @@ background: linear-gradient(90deg, rgba(245, 119, 33, 1) 0%, rgba(145, 24, 59, 1
 border-radius:25px !important;
     }
 
-    /*icons*/
+    /*icons change color through this website https://angel-rs.github.io/css-color-filter-generator/*/
     .icon .chabad_updates .widget_content .item .icon img, .icon .widget_content .item .icon img{
         height:70px !important;
         width:auto !important;
+    }
+
+    .icon .chabad_updates .widget_content .item .icon img, .icon .widget_content .item .icon img{
+        filter: brightness(0) saturate(100%) invert(15%) sepia(96%) saturate(1695%) hue-rotate(320deg) brightness(98%) contrast(102%);
     }
 
     /*slides you have to copy selector of the slide every time otherwhise hero slides also get changed*/
