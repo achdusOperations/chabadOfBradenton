@@ -43,3 +43,9 @@ text-transform:none !important;
 background: linear-gradient(90deg, rgba(245, 119, 33, 1) 0%, rgba(145, 24, 59, 1) 100%);
 border-radius:25px !important;
     }
+
+    /*icons*/
+    .icon .chabad_updates .widget_content .item .icon img, .icon .widget_content .item .icon img{
+        height:70px !important;
+        width:auto !important;
+    }
