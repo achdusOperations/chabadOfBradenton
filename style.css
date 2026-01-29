@@ -56,6 +56,10 @@ border-radius:25px !important;
     }
 
     /*slides*/
+
+    .widget_content.html_format .slides{
+        border-radius:0px !important;
+    }
     .widget-4.promo_slider.custom.v380.feed .slides{
         border-radius:25px !important;
     }
