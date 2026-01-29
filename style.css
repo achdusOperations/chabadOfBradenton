@@ -55,7 +55,7 @@ border-radius:25px !important;
         width:auto !important;
     }
 
-    /*slides*/
+    /*slides you have to copy selector of the slide every time otherwhise hero slides also get changed*/
 
     
     #BodyContainer > div > div.g960 > div > div.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.no_margin.g960.no_margin > div > div:nth-child(7) > div > div > div > div.slider > div.slides{
