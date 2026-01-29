@@ -44,8 +44,8 @@ text-transform:none !important;
     
     /*background*/
     .banner .widget_content.index_format .item{
-        background: #F57721;
-background: linear-gradient(90deg, rgba(245, 119, 33, 1) 0%, rgba(145, 24, 59, 1) 100%);
+        background: #F57721 !important;
+background: linear-gradient(90deg, rgba(245, 119, 33, 1) 0%, rgba(145, 24, 59, 1) 100%) !important;
 border-radius:25px !important;
     }
 
@@ -67,7 +67,7 @@ border-radius:25px !important;
 
     /*join our mailing list*/
     .hp-table .hp_subscribe{
-        background: #F57721;
+        background: #F57721 !important;
 background: linear-gradient(90deg, rgba(245, 119, 33, 1) 0%, rgba(145, 24, 59, 1) 100%) !important;
     }
 /*primary color: replace #f57721; secondary color find replace #91183b*/
