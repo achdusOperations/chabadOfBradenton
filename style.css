@@ -49,3 +49,11 @@ border-radius:25px !important;
         height:70px !important;
         width:auto !important;
     }
+
+    /*slides*/
+    .slides{
+        border-radius:25px !important;
+    }
+    .cycle-caption{
+        border-radius:0px 25px 25px 0px !important;
+    }
