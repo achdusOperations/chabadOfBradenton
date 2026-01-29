@@ -66,11 +66,14 @@ border-radius:25px !important;
         color:#fff !important;
     }
  /*i would like to*/
- .widget-4.icon.custom.v380.feed.icon-updates{
+ #BodyContainer > div > div.g960 > div > div.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.no_margin.g960.no_margin > div > div:nth-child(4){
     background: #F57721 !important;
 background: linear-gradient(90deg, rgba(245, 119, 33, 1) 0%, rgba(145, 24, 59, 1) 100%) !important;
 
 
+}
+.widget-4.icon.custom.v380.feed.icon-updates h5{
+    color:#fff !important;
 }
     /*slides you have to copy selector of the slide every time otherwhise hero slides also get changed*/
 
@@ -83,6 +86,7 @@ background: linear-gradient(90deg, rgba(245, 119, 33, 1) 0%, rgba(145, 24, 59, 1
     }
 
     /*join our mailing list*/
+    $
     .hp-table .hp_subscribe{
         background: #F57721 !important;
 background: linear-gradient(90deg, rgba(245, 119, 33, 1) 0%, rgba(145, 24, 59, 1) 100%) !important;
