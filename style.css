@@ -41,4 +41,5 @@ text-transform:none !important;
     .banner .widget_content.index_format .item{
         background: #F57721;
 background: linear-gradient(90deg, rgba(245, 119, 33, 1) 0%, rgba(145, 24, 59, 1) 100%);
+border-radius:25px !important;
     }
