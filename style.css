@@ -120,10 +120,10 @@ background: linear-gradient(90deg, rgba(245, 119, 33, 1) 0%, rgba(145, 24, 59, 1
 }
 
 /*rounding*/
-html:has(meta[content*="Camp-Gan-Israel"]) .bannerCta button, .html:has(meta[content*="Camp-Gan-Israel"]) read-more_link a{
+html:has(meta[content*="Camp-Gan-Israel"]) .bannerCta button, html:has(meta[content*="Camp-Gan-Israel"]) .read-more_link a{
     border-radius: 25px !important;
 
 }
-html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-flex img , .html:has(meta[content*="Camp-Gan-Israel"]) sPromo-flex img, html:has(meta[content*="Camp-Gan-Israel"]) .indexsectionImg img, html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-flex{
+html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-flex img , html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-flex img, html:has(meta[content*="Camp-Gan-Israel"]) .indexsectionImg img, html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-flex{
 border-radius:50% !important;
 }
