@@ -107,7 +107,7 @@ background: linear-gradient(90deg, rgba(245, 119, 33, 1) 0%, rgba(145, 24, 59, 1
     
 /*camp minisite*/
 @media only screen and (max-width: 650px){
-.chabad_header img {
+    html:has(meta[content*="Camp-Gan-Israel"]) .chabad_header img {
     display: block;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -117,4 +117,13 @@ background: linear-gradient(90deg, rgba(245, 119, 33, 1) 0%, rgba(145, 24, 59, 1
     padding-left: 310px !important; /* Equal to width of new image */
     background-size:100% 100% !important;
   }
+}
+
+/*rounding*/
+html:has(meta[content*="Camp-Gan-Israel"]) .bannerCta button, .html:has(meta[content*="Camp-Gan-Israel"]) read-more_link a{
+    border-radius: 25px !important;
+
+}
+html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-flex img , .html:has(meta[content*="Camp-Gan-Israel"]) sPromo-flex img, html:has(meta[content*="Camp-Gan-Israel"]) .indexsectionImg img, html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-flex{
+border-radius:50% !important;
 }
