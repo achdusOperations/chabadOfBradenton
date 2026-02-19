@@ -106,24 +106,80 @@ background: linear-gradient(90deg, rgba(245, 119, 33, 1) 0%, rgba(145, 24, 59, 1
 
     
 /*camp minisite*/
+
 @media only screen and (max-width: 650px){
-    html:has(meta[content*="Camp-Gan-Israel"]) .chabad_header img {
+    html:has(meta[content*="Camp-Gan-Israel"]) .chabad_header img, html:has(meta[content*="Hebrew-School-Registration"]) .chabad_header img{
     display: block;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background: url("https://chabadofwesthills.com/media/images/1356/jybn13563373.jpeg") no-repeat;
-    width: 310px !important; /* Width of new image */
-    height: 250px  !important; /* Height of new image */
-    padding-left: 310px !important; /* Equal to width of new image */
+    background: url("https://chabadofbradenton.com/media/images/1358/snip13583978.png") no-repeat;
+    
+    height: 100vw  !important; /* Height of new image */
+    padding-left: 100vw !important; /* Equal to width of new image */
     background-size:100% 100% !important;
   }
 }
 
+/*remove bh for mobile as it appeared in wrong place*/
+html:has(meta[content*="Camp-Gan-Israel"]) .mobile .bh, html:has(meta[content*="Hebrew-School-Registration"]) .mobile .bh {
+display:none !important;
+}
+
+/*put down in mobile the message aera that go cut off*/
+@media only screen and (max-width: 650px){
+html:has(meta[content*="Camp-Gan-Israel"]) .body_wrapper.co_body, html:has(meta[content*="Hebrew-School-Registration"]) div#content_page_full{
+    padding-top:50px !important;
+}
+
+}
+
 /*rounding*/
-html:has(meta[content*="Camp-Gan-Israel"]) .bannerCta button, html:has(meta[content*="Camp-Gan-Israel"]) .read-more_link a{
+html:has(meta[content*="Camp-Gan-Israel"]) .bannerCta button{
     border-radius: 25px !important;
 
 }
 html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-flex img , html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-flex img, html:has(meta[content*="Camp-Gan-Israel"]) .indexsectionImg img, html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-flex{
 border-radius:50% !important;
 }
+
+/*footer*/
+html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer, html:has(meta[content*="Hebrew-School-Registration"]) .g960.footer{
+    background-image: 
+    url("https://chabadofbradenton.com/media/images/1358/iUxu13583975.png");
+    background-size:100% 100%;
+    color:#fff !important;
+    height:450px !important;
+    padding-top:350px !important;
+}
+html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer a, html:has(meta[content*="Hebrew-School-Registration"]) .g960.footer a{
+    color:#fff !important;
+}
+@media only screen and (max-width: 650px){
+    html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer, html:has(meta[content*="Hebrew-School-Registration"]) .g960.footer{
+        background-image: 
+        url("https://chabadofbradenton.com/media/images/1358/gGfd13583979.png");
+        background-size:100% 100%;
+        height:250px !important;        
+    padding-top:10px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
