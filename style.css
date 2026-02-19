@@ -148,6 +148,19 @@ html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-flex{
     min-height: 280px;
 }
 
+/*button with link*/
+/*register button*/
+html:has(meta[content*="Camp-Gan-Israel"]) .read-more_link a{
+    color:#2cdbf8 !important;
+    border: 2px solid #2cdbf8 !important;
+    font-size:50px !important;
+    border-radius:50px !important;
+}
+html:has(meta[content*="Camp-Gan-Israel"]) .read-more_link a:hover{
+    background:#364fab !important; 
+    color:#fff !important;
+}
+
 
 /*footer*/
 html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer, html:has(meta[content*="Hebrew-School-Registration"]) .g960.footer{
@@ -175,7 +188,7 @@ html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer a, html:has(meta[content
 html:has(meta[content*="Camp-Gan-Israel"]) .indexsection .title{
     font-size:60pt !important;
     font-weight: bold !important;
-    color:#5bf4e5 !important;
+    color:#364fab !important;
 }
 @media only screen and (min-width: 651px){
 html:has(meta[content*="Camp-Gan-Israel"]) .indexsection .title{    
