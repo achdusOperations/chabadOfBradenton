@@ -107,6 +107,8 @@ background: linear-gradient(90deg, rgba(245, 119, 33, 1) 0%, rgba(145, 24, 59, 1
     
 /*camp minisite*/
 
+
+/*template*/
 @media only screen and (max-width: 650px){
     html:has(meta[content*="Camp-Gan-Israel"]) .chabad_header img, html:has(meta[content*="Hebrew-School-Registration"]) .chabad_header img{
     display: block;
@@ -141,6 +143,11 @@ html:has(meta[content*="Camp-Gan-Israel"]) .bannerCta button{
 html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-flex img , html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-flex img, html:has(meta[content*="Camp-Gan-Israel"]) .indexsectionImg img, html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-flex{
 border-radius:50% !important;
 }
+/*rounding promo*/
+html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-flex{
+    min-height: 280px;
+}
+
 
 /*footer*/
 html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer, html:has(meta[content*="Hebrew-School-Registration"]) .g960.footer{
@@ -164,6 +171,28 @@ html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer a, html:has(meta[content
     }
 }
 
+/*contact section title and to align image with text*/
+html:has(meta[content*="Camp-Gan-Israel"]) .indexsection .title{
+    font-size:60pt !important;
+    font-weight: bold !important;
+    color:#5bf4e5 !important;
+}
+@media only screen and (min-width: 651px){
+html:has(meta[content*="Camp-Gan-Israel"]) .indexsection .title{    
+    padding-top:50px !important;
+}
+html:has(meta[content*="Camp-Gan-Israel"]) .indexsectionImg img{
+    margin-top:-100px !important;
+}
+}
+
+
+/*end template*/
+
+/*top line*/
+html:has(meta[content*="Camp-Gan-Israel"]) .cco_templateless_template a{
+background-color:#2cdbf8 !important;
+}
 
 
 
