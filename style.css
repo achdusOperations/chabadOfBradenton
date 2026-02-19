@@ -150,9 +150,10 @@ border-radius:50% !important;
 }
 /*rounding promo*/
 @media only screen and (min-width: 651px){
-html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-flex{
+html:has(meta[content*="Camp-Gan-Israel"]) .message img{
     /*min-height: 280px !important;*/
-    width:30% !important;
+    width: 30% !important;
+    height:30% !important;
 }
 }
 /*remove background at the bottom of caption*/
