@@ -152,6 +152,10 @@ border-radius:50% !important;
 html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-flex{
     min-height: 280px !important;
 }
+/*remove background at the bottom of caption*/
+html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-wrap .caption{
+    background: none !important;
+}
 
 /*button with link*/
 /*register button*/
