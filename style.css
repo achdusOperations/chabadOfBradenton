@@ -135,6 +135,11 @@ html:has(meta[content*="Camp-Gan-Israel"]) .body_wrapper.co_body, html:has(meta[
 
 }
 
+/*top line*/
+html:has(meta[content*="Camp-Gan-Israel"]) .cco_templateless_template a{
+    background-color:#2cdbf8 !important;
+    }
+
 /*rounding*/
 html:has(meta[content*="Camp-Gan-Israel"]) .bannerCta button{
     border-radius: 25px !important;
@@ -202,10 +207,9 @@ html:has(meta[content*="Camp-Gan-Israel"]) .indexsectionImg img{
 
 /*end template*/
 
-/*top line*/
-html:has(meta[content*="Camp-Gan-Israel"]) .cco_templateless_template a{
-background-color:#2cdbf8 !important;
-}
+    html:has(meta[content*="Camp-Gan-Israel"]) .section_root div#ContentBody .content-area-parent{
+        margin-top:-100px !important;
+    }
 
 
 
