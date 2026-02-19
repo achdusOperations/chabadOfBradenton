@@ -150,7 +150,7 @@ border-radius:50% !important;
 }
 /*rounding promo*/
 html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-flex{
-    min-height: 280px;
+    min-height: 280px !important;
 }
 
 /*button with link*/
