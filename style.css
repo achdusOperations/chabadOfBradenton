@@ -149,6 +149,12 @@ html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-flex img , html:has(meta[cont
 border-radius:50% !important;
 }
 /*rounding promo*/
+/*rounding promo*/
+@media only screen and (max-width: 650px){
+html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-flex{
+    min-height: 280px;
+}
+}
 @media only screen and (min-width: 651px){
 html:has(meta[content*="Camp-Gan-Israel"]) .message img{
     /*min-height: 280px !important;*/
