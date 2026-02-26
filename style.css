@@ -297,7 +297,7 @@ html:has(meta[content*="Camp-Gan-Israel"]) .custom_message{
 html:has(meta[content*="Dates-Rates"])  .chabad_header img, html:has(meta[content*="About"])  .chabad_header img, html:has(meta[content*="Schedule"])  .chabad_header img, html:has(meta[content*="Summer-Camp-Registration"]) .chabad_header img{
     height:450px !important;
 }
-    html:has(meta[content*="Dates-Rates"])  #navigation li.parent a.parent, html:has(meta[content*="About"])  #navigation li.parent a.parent, html:has(meta[content*="Schedule"])  #navigation li.parent a.parent, html:has(meta[content*="Summer-Camp-Registration"]) #navigation li.parent a.parent{
+    html:has(meta[content*="Dates-Rates"])  #navigation, html:has(meta[content*="About"])  #navigation, html:has(meta[content*="Schedule"])  #navigation, html:has(meta[content*="Summer-Camp-Registration"]) #navigation{
        margin-top:150px !important;
     }
    
