@@ -304,6 +304,10 @@ html:has(meta[content*="Dates-Rates"])  .chabad_header img, html:has(meta[conten
     background-size:100% 100% !important;
   }
 }
+/*top line color*/
+html:has(meta[content*="Dates-Rates"]) .cco_templateless_template a, html:has(meta[content*="About"]) .cco_templateless_template a, html:has(meta[content*="Schedule"]) .cco_templateless_template a{
+    color:#2cdbf8 !important;
+    }
 
 
 
