@@ -260,7 +260,7 @@ html:has(meta[content*="Camp-Gan-Israel"]) .custom_message{
 
 
  /*children pages*/
- html:has(meta[content*="Dates-Rates"])  #navigation li.parent a.parent, html:has(meta[content*="About"])  #navigation li.parent a.parent, html:has(meta[content*="Schedule"])  #navigation li.parent a.parent{
+ html:has(meta[content*="Dates-Rates"])  #navigation li.parent a.parent, html:has(meta[content*="About"])  #navigation li.parent a.parent, html:has(meta[content*="Schedule"])  #navigation li.parent a.parent,  html:has(meta[content*="Dates-Rates"])  div#chabad_head .chabad_navigator_bar, html:has(meta[content*="About"])  div#chabad_head .chabad_navigator_bar, html:has(meta[content*="Schedule"])  div#chabad_head .chabad_navigator_bar {
     border-radius:25px !important;
     background-color:#2cdbf8  !important;
  }
