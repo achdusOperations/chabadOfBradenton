@@ -123,13 +123,13 @@ background: linear-gradient(90deg, rgba(245, 119, 33, 1) 0%, rgba(145, 24, 59, 1
 }
 
 /*remove bh for mobile as it appeared in wrong place*/
-html:has(meta[content*="Camp-Gan-Israel"]) .mobile .bh, html:has(meta[content*="Hebrew-School-Registration"]) .mobile .bh {
+html:has(meta[content*="Camp-Gan-Israel"]) .mobile .bh, html:has(meta[content*="Dates-Rates"]) .mobile .bh, html:has(meta[content*="About"]) .mobile .bh, html:has(meta[content*="Schedule"]) .mobile .bh{
 display:none !important;
 }
 
 /*put down in mobile the message aera that go cut off*/
 @media only screen and (max-width: 650px){
-html:has(meta[content*="Camp-Gan-Israel"]) .body_wrapper.co_body, html:has(meta[content*="Hebrew-School-Registration"]) div#content_page_full{
+html:has(meta[content*="Camp-Gan-Israel"]) .body_wrapper.co_body, html:has(meta[content*="Dates-Rates"]) .body_wrapper.co_body, html:has(meta[content*="About"]) .body_wrapper.co_body, html:has(meta[content*="Schedule"]) .body_wrapper.co_body{
     padding-top:50px !important;
 }
 
