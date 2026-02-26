@@ -262,7 +262,7 @@ html:has(meta[content*="Camp-Gan-Israel"]) .custom_message{
     margin-bottom:0px !important;
  }
 
- html:has(meta[content*="Camp-Gan-Israel"]) #ContentBody > div.content-area-parent.no_margin > div:nth-child(5) > div.message > div:nth-child(1){
+ html:has(meta[content*="Camp-Gan-Israel"]) div:nth-child(5) > div.message > div:nth-child(1){
     display:flex !important;
  }
 
