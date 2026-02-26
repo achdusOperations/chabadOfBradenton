@@ -226,12 +226,12 @@ html:has(meta[content*="Camp-Gan-Israel"]) .indexsectionImg img{
 }
 
 /*remove navigation*/
-div#chabad_head .chabad_navigator_bar {
+html:has(meta[content*="Camp-Gan-Israel"]) div#chabad_head .chabad_navigator_bar {
 display:none !important;
 }
 
 /*put buttons side by side */
-#ContentBody > div.content-area-parent.no_margin > div:nth-child(2) > div.message{
+html:has(meta[content*="Camp-Gan-Israel"]) #ContentBody > div.content-area-parent.no_margin > div:nth-child(2) > div.message{
     display:flex !important;
 }
 
