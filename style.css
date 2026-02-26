@@ -259,6 +259,20 @@ html:has(meta[content*="Camp-Gan-Israel"]) .custom_message{
  }
 
 
+ /*children pages*/
+ html:has(meta[content*="Camp-Gan-Israel"])  #navigation li.parent a.parent, html:has(meta[content*="Dates-Rates"])  #navigation li.parent a.parent, html:has(meta[content*="About"])  #navigation li.parent a.parent, html:has(meta[content*="Schedule"])  #navigation li.parent a.parent{
+    border-radius:25px !important;
+    background-color:#2cdbf8  !important;
+ }
+
+ html:has(meta[content*="Camp-Gan-Israel"]) #navigation li.parent.selected a.parent, html:has(meta[content*="Dates-Rates"]) #navigation li.parent.selected a.parent, html:has(meta[content*="About"]) #navigation li.parent.selected a.parent, html:has(meta[content*="Schedule"]) #navigation li.parent.selected a.parent,
+ html:has(meta[content*="Camp-Gan-Israel"]) #navigation li.parent a.parent:hover, html:has(meta[content*="Dates-Rates"]) #navigation li.parent a.parent:hover, html:has(meta[content*="About"]) #navigation li.parent a.parent:hover, html:has(meta[content*="Schedule"]) #navigation li.parent a.parent:hover{
+    color:#364fab !important;
+ }
+
+
+
+
 
 
 
