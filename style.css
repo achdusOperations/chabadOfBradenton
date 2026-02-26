@@ -254,7 +254,6 @@ html:has(meta[content*="Camp-Gan-Israel"]) #ContentBody > div.content-area-paren
     html:has(meta[content*="Camp-Gan-Israel"]) div:nth-child(3) > div.message img {
         width: 15vw;
         height: 100%;
-        padding: 5px;
     }
 }
 
