@@ -192,7 +192,7 @@ html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer a{
     color:#fff !important;
 }
 @media only screen and (max-width: 650px){
-    html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer{
+    html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer, html:has(meta[content*="Dates-Rates"]) .g960.footer, html:has(meta[content*="About"]) .g960.footer, html:has(meta[content*="Schedule"]) .g960.footer{
         background-image: 
         url("https://chabadofbradenton.com/media/images/1358/gGfd13583979.png");
         background-size:100% 100%;
