@@ -220,15 +220,20 @@ html:has(meta[content*="Camp-Gan-Israel"]) .indexsectionImg img{
 
 
 /*end template*/
-@media only screen and (min-width: 651px){
+/*@media only screen and (min-width: 651px){
     html:has(meta[content*="Camp-Gan-Israel"]) .section_root div#ContentBody .content-area-parent{
-        margin-top:-200px !important;
+        margin-top:-100px !important;
     }
 }
 @media only screen and (max-width: 650px){
     html:has(meta[content*="Camp-Gan-Israel"]) .section_root div#ContentBody .content-area-parent{
         margin-top:-50px !important;
     }
+}
+
+/*remove navigation*/
+div#chabad_head .chabad_navigator_bar {
+display:none !important;
 }
 
 
