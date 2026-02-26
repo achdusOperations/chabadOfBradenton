@@ -236,7 +236,7 @@ display:none !important;
 
 /*put buttons side by side */
 @media only screen and (min-width: 651px){
-html:has(meta[content*="Camp-Gan-Israel"]) #ContentBody > div.content-area-parent.no_margin > div:nth-child(2) > div.message{
+html:has(meta[content*="Camp-Gan-Israel"]) #ContentBody > div.content-area-parent.no_margin > div:nth-child(5) > div.message{
     display: flex !important;
 }
 }
@@ -247,11 +247,11 @@ html:has(meta[content*="Camp-Gan-Israel"]) #ContentBody > div.content-area-paren
     }
     }
     @media (min-width: 651px){
-    html:has(meta[content*="Camp-Gan-Israel"]) div:nth-child(4) > div.message p{
+    html:has(meta[content*="Camp-Gan-Israel"]) div:nth-child(3) > div.message p{
         display:flex !important;
     }
 
-    html:has(meta[content*="Camp-Gan-Israel"]) div:nth-child(4) > div.message img {
+    html:has(meta[content*="Camp-Gan-Israel"]) div:nth-child(3) > div.message img {
         width: 15vw;
         height: 100%;
         padding: 5px;
