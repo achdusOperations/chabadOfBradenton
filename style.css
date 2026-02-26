@@ -172,7 +172,7 @@ html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-wrap .caption{
 html:has(meta[content*="Camp-Gan-Israel"]) .read-more_link a{
     color:#2cdbf8 !important;
     border: 2px solid #2cdbf8 !important;
-    font-size:50px !important;
+    font-size:40px !important;
     border-radius:50px !important;
 }
 html:has(meta[content*="Camp-Gan-Israel"]) .read-more_link a:hover{
