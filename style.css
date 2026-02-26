@@ -254,6 +254,10 @@ html:has(meta[content*="Camp-Gan-Israel"]) #ContentBody > div.content-area-paren
     }
 }
 
+html:has(meta[content*="Camp-Gan-Israel"]) div:nth-child(3){
+    padding-bottom:0px !important;
+ }
+
 
 
 
