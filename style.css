@@ -273,9 +273,7 @@ html:has(meta[content*="Camp-Gan-Israel"]) .custom_message{
     border-radius:25px !important;
     background-color:#2cdbf8  !important;
  }
- html:has(meta[content*="Dates-Rates"])  #navigation li.parent a.parent, html:has(meta[content*="About"])  #navigation li.parent a.parent, html:has(meta[content*="Schedule"])  #navigation li.parent a.parent, html:has(meta[content*="Summer-Camp-Registration"]) #navigation li.parent a.parent{
-    margin-top:150px !important;
- }
+
 
   html:has(meta[content*="Dates-Rates"]) #navigation li.parent.selected a.parent, html:has(meta[content*="About"]) #navigation li.parent.selected a.parent, html:has(meta[content*="Schedule"]) #navigation li.parent.selected a.parent, html:has(meta[content*="Summer-Camp-Registration"]) #navigation li.parent.selected a.parent, html:has(meta[content*="Dates-Rates"]) #navigation li.parent a.parent:hover, html:has(meta[content*="About"]) #navigation li.parent a.parent:hover, html:has(meta[content*="Schedule"]) #navigation li.parent a.parent:hover, html:has(meta[content*="Summer-Camp-Registration"]) #navigation li.parent a.parent:hover{
     color:#364fab !important;
@@ -297,9 +295,12 @@ html:has(meta[content*="Camp-Gan-Israel"]) .custom_message{
 
 @media only screen and (min-width: 651px){
 html:has(meta[content*="Dates-Rates"])  .chabad_header img, html:has(meta[content*="About"])  .chabad_header img, html:has(meta[content*="Schedule"])  .chabad_header img, html:has(meta[content*="Summer-Camp-Registration"]) .chabad_header img{
-    background: url("https://chabadofbradenton.com/media/images/1359/fjRo13593279.png") no-repeat;
     height:450px !important;
 }
+    html:has(meta[content*="Dates-Rates"])  #navigation li.parent a.parent, html:has(meta[content*="About"])  #navigation li.parent a.parent, html:has(meta[content*="Schedule"])  #navigation li.parent a.parent, html:has(meta[content*="Summer-Camp-Registration"]) #navigation li.parent a.parent{
+       margin-top:150px !important;
+    }
+   
 }
 
 @media only screen and (max-width: 650px){
