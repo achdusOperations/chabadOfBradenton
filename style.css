@@ -255,7 +255,7 @@ html:has(meta[content*="Camp-Gan-Israel"]) #ContentBody > div.content-area-paren
 }
 
 html:has(meta[content*="Camp-Gan-Israel"]) .custom_message{
-    padding-bottom:0px !important;
+    margin-bottom:0px !important;
  }
 
 
