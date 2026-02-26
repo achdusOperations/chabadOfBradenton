@@ -260,7 +260,7 @@ html:has(meta[content*="Camp-Gan-Israel"]) .custom_message{
 
 
  /*children pages*/
- html:has(meta[content*="Camp-Gan-Israel"])  #navigation li.parent a.parent, html:has(meta[content*="Dates-Rates"])  #navigation li.parent a.parent, html:has(meta[content*="About"])  #navigation li.parent a.parent, html:has(meta[content*="Schedule"])  #navigation li.parent a.parent{
+ html:has(meta[content*="Camp-Gan-Israel"]) .cco_templateless_template a, html:has(meta[content*="Dates-Rates"]) .cco_templateless_template a, html:has(meta[content*="About"]) .cco_templateless_template a, html:has(meta[content*="Schedule"]) .cco_templateless_template a{
     border-radius:25px !important;
     background-color:#2cdbf8  !important;
  }
