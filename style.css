@@ -276,13 +276,30 @@ html:has(meta[content*="Camp-Gan-Israel"]) .custom_message{
  }
 
  /*footer*/
-html:has(meta[content*="Camp-Gan-Israel"])  .g960.footer a, html:has(meta[content*="Dates-Rates"])  .g960.footer a, html:has(meta[content*="About"])  .g960.footer a, html:has(meta[content*="Schedule"])  .g960.footer a{
+ html:has(meta[content*="Dates-Rates"])  .g960.footer a, html:has(meta[content*="About"])  .g960.footer a, html:has(meta[content*="Schedule"])  .g960.footer a{
     color:#364fab !important;
 }
 
  
 
+/*header*/
 
+html:has(meta[content*="Dates-Rates"])  .chabad_header img, html:has(meta[content*="About"])  .chabad_header img, html:has(meta[content*="Schedule"])  .chabad_header img{
+    background: url("https://chabadofbradenton.com/media/images/1359/fjRo13593279.png") no-repeat;
+}
+
+@media only screen and (max-width: 650px){
+    html:has(meta[content*="Dates-Rates"])  .chabad_header img, html:has(meta[content*="About"])  .chabad_header img, html:has(meta[content*="Schedule"])  .chabad_header img{
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url("https://chabadofbradenton.com/media/images/1359/FBuB13593284.png") no-repeat;
+    
+    height: 100vw  !important; /* Height of new image */
+    padding-left: 100vw !important; /* Equal to width of new image */
+    background-size:100% 100% !important;
+  }
+}
 
 
 
