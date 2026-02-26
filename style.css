@@ -176,7 +176,7 @@ html:has(meta[content*="Camp-Gan-Israel"]) .read-more_link a:hover{
 
 
 /*footer*/
-html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer, html:has(meta[content*="Hebrew-School-Registration"]) .g960.footer{
+html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer, html:has(meta[content*="Dates-Rates"]) .g960.footer, html:has(meta[content*="About"]) .g960.footer, html:has(meta[content*="Schedule"]) .g960.footer{
     background-image: 
     url("https://chabadofbradenton.com/media/images/1358/iUxu13583975.png");
     background-size:100% 100%;
@@ -184,11 +184,11 @@ html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer, html:has(meta[content*=
     height:450px !important;
     padding-top:350px !important;
 }
-html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer a, html:has(meta[content*="Hebrew-School-Registration"]) .g960.footer a{
+html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer a{
     color:#fff !important;
 }
 @media only screen and (max-width: 650px){
-    html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer, html:has(meta[content*="Hebrew-School-Registration"]) .g960.footer{
+    html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer{
         background-image: 
         url("https://chabadofbradenton.com/media/images/1358/gGfd13583979.png");
         background-size:100% 100%;
@@ -260,15 +260,27 @@ html:has(meta[content*="Camp-Gan-Israel"]) .custom_message{
 
 
  /*children pages*/
- html:has(meta[content*="Camp-Gan-Israel"])  #navigation li.parent a.parent, html:has(meta[content*="Dates-Rates"])  #navigation li.parent a.parent, html:has(meta[content*="About"])  #navigation li.parent a.parent, html:has(meta[content*="Schedule"])  #navigation li.parent a.parent{
+ html:has(meta[content*="Dates-Rates"])  #navigation li.parent a.parent, html:has(meta[content*="About"])  #navigation li.parent a.parent, html:has(meta[content*="Schedule"])  #navigation li.parent a.parent{
     border-radius:25px !important;
     background-color:#2cdbf8  !important;
  }
 
- html:has(meta[content*="Camp-Gan-Israel"]) #navigation li.parent.selected a.parent, html:has(meta[content*="Dates-Rates"]) #navigation li.parent.selected a.parent, html:has(meta[content*="About"]) #navigation li.parent.selected a.parent, html:has(meta[content*="Schedule"]) #navigation li.parent.selected a.parent,
- html:has(meta[content*="Camp-Gan-Israel"]) #navigation li.parent a.parent:hover, html:has(meta[content*="Dates-Rates"]) #navigation li.parent a.parent:hover, html:has(meta[content*="About"]) #navigation li.parent a.parent:hover, html:has(meta[content*="Schedule"]) #navigation li.parent a.parent:hover{
+  html:has(meta[content*="Dates-Rates"]) #navigation li.parent.selected a.parent, html:has(meta[content*="About"]) #navigation li.parent.selected a.parent, html:has(meta[content*="Schedule"]) #navigation li.parent.selected a.parent,
+ #navigation li.parent a.parent:hover, html:has(meta[content*="Dates-Rates"]) #navigation li.parent a.parent:hover, html:has(meta[content*="About"]) #navigation li.parent a.parent:hover, html:has(meta[content*="Schedule"]) #navigation li.parent a.parent:hover{
     color:#364fab !important;
  }
+
+ /*remove headers*/
+ header.article-header.cf, html:has(meta[content*="Dates-Rates"]) header.article-header.cf, html:has(meta[content*="About"]) header.article-header.cf, html:has(meta[content*="Schedule"]) header.article-header.cf{
+    display:none !important;
+ }
+
+ /*footer*/
+html:has(meta[content*="Camp-Gan-Israel"])  .g960.footer a, html:has(meta[content*="Dates-Rates"])  .g960.footer a, html:has(meta[content*="About"])  .g960.footer a, html:has(meta[content*="Schedule"])  .g960.footer a{
+    color:#364fab !important;
+}
+
+ 
 
 
 
