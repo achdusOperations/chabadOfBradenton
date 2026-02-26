@@ -155,13 +155,7 @@ html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-flex{
     min-height: 280px;
 }
 }
-@media only screen and (min-width: 651px){
-html:has(meta[content*="Camp-Gan-Israel"]) #ContentBody > div.content-area-parent.no_margin > div:nth-child(2) > div.message img{
-    /*min-height: 280px !important;*/
-    width: 30% !important;
-    height:30% !important;
-}
-}
+
 /*remove background at the bottom of caption*/
 html:has(meta[content*="Camp-Gan-Israel"]) .sPromo-wrap .caption{
     background: none !important;
