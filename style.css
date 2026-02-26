@@ -262,6 +262,10 @@ html:has(meta[content*="Camp-Gan-Israel"]) .custom_message{
     margin-bottom:0px !important;
  }
 
+ html:has(meta[content*="Camp-Gan-Israel"]) #ContentBody > div.content-area-parent.no_margin > div:nth-child(5) > div.message > div:nth-child(1){
+    display:flex !important;
+ }
+
 
  /*children pages*/
  html:has(meta[content*="Dates-Rates"])  #navigation li.parent a.parent, html:has(meta[content*="About"])  #navigation li.parent a.parent, html:has(meta[content*="Schedule"])  #navigation li.parent a.parent, html:has(meta[content*="Summer-Camp-Registration"]) #navigation li.parent a.parent,  html:has(meta[content*="Dates-Rates"])  div#chabad_head .chabad_navigator_bar, html:has(meta[content*="About"])  div#chabad_head .chabad_navigator_bar, html:has(meta[content*="Schedule"])  div#chabad_head .chabad_navigator_bar, html:has(meta[content*="Summer-Camp-Registration"]) div#chabad_head .chabad_navigator_bar{
