@@ -230,6 +230,11 @@ div#chabad_head .chabad_navigator_bar {
 display:none !important;
 }
 
+/*put buttons side by side */
+#ContentBody > div.content-area-parent.no_margin > div:nth-child(2) > div.message{
+    display:flex !important;
+}
+
 
 
 
