@@ -123,20 +123,20 @@ background: linear-gradient(90deg, rgba(245, 119, 33, 1) 0%, rgba(145, 24, 59, 1
 }
 
 /*remove bh for mobile as it appeared in wrong place*/
-html:has(meta[content*="Camp-Gan-Israel"]) .mobile .bh, html:has(meta[content*="Dates-Rates"]) .mobile .bh, html:has(meta[content*="About"]) .mobile .bh, html:has(meta[content*="Schedule"]) .mobile .bh, html:has(meta[content*="Summer-Camp-Registration"]) .mobile .bh, html:has(meta[content*="Photos"]) .mobile .bh{
+html:has(meta[content*="Camp-Gan-Israel"]) .mobile .bh, html:has(meta[content*="Dates-Rates"]) .mobile .bh, html:has(meta[content*="About"]) .mobile .bh, html:has(meta[content*="Schedule"]) .mobile .bh, html:has(meta[content*="Summer-Camp-Registration"]) .mobile .bh, html:has(meta[content*="Photos"]) .mobile .bh, html:has(meta[content*="Camp-Scholarship-Form"]) .mobile .bh, html:has(meta[content*="Terms-Conditions"]) .mobile .bh{
 display:none !important;
 }
 
 /*put down in mobile the message aera that go cut off*/
 @media only screen and (max-width: 650px){
-html:has(meta[content*="Camp-Gan-Israel"]) .body_wrapper.co_body, html:has(meta[content*="Dates-Rates"]) .body_wrapper.co_body, html:has(meta[content*="About"]) .body_wrapper.co_body, html:has(meta[content*="Schedule"]) .body_wrapper.co_body, html:has(meta[content*="Summer-Camp-Registration"]) .body_wrapper.co_body, html:has(meta[content*="Photos"]) .body_wrapper.co_body{
+html:has(meta[content*="Camp-Gan-Israel"]) .body_wrapper.co_body, html:has(meta[content*="Dates-Rates"]) .body_wrapper.co_body, html:has(meta[content*="About"]) .body_wrapper.co_body, html:has(meta[content*="Schedule"]) .body_wrapper.co_body, html:has(meta[content*="Summer-Camp-Registration"]) .body_wrapper.co_body, html:has(meta[content*="Photos"]) .body_wrapper.co_body, html:has(meta[content*="Camp-Scholarship-Form"]) .body_wrapper.co_body, html:has(meta[content*="Terms-Conditions"]) .body_wrapper.co_body{
     padding-top:50px !important;
 }
 
 }
 
 /*top line*/
-html:has(meta[content*="Camp-Gan-Israel"]) .cco_templateless_template a,  html:has(meta[content*="Dates-Rates"]) .cco_templateless_template a, html:has(meta[content*="About"]) .cco_templateless_template a, html:has(meta[content*="Schedule"]) .cco_templateless_template a, html:has(meta[content*="Summer-Camp-Registration"]) .cco_templateless_template a, html:has(meta[content*="Photos"]) .cco_templateless_template a{
+html:has(meta[content*="Camp-Gan-Israel"]) .cco_templateless_template a,  html:has(meta[content*="Dates-Rates"]) .cco_templateless_template a, html:has(meta[content*="About"]) .cco_templateless_template a, html:has(meta[content*="Schedule"]) .cco_templateless_template a, html:has(meta[content*="Summer-Camp-Registration"]) .cco_templateless_template a, html:has(meta[content*="Photos"]) .cco_templateless_template a, html:has(meta[content*="Camp-Scholarship-Form"]) .cco_templateless_template a, html:has(meta[content*="Terms-Conditions"]) .cco_templateless_template a{
     background-color:#2cdbf8 !important;
     }
 
@@ -176,7 +176,7 @@ html:has(meta[content*="Camp-Gan-Israel"]) .read-more_link a:hover{
 
 
 /*footer*/
-html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer, html:has(meta[content*="Dates-Rates"]) .g960.footer, html:has(meta[content*="About"]) .g960.footer, html:has(meta[content*="Schedule"]) .g960.footer, html:has(meta[content*="Summer-Camp-Registration"]) .g960.footer, html:has(meta[content*="Photos"]) .g960.footer{
+html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer, html:has(meta[content*="Dates-Rates"]) .g960.footer, html:has(meta[content*="About"]) .g960.footer, html:has(meta[content*="Schedule"]) .g960.footer, html:has(meta[content*="Summer-Camp-Registration"]) .g960.footer, html:has(meta[content*="Photos"]) .g960.footer, html:has(meta[content*="Camp-Scholarship-Form"]) .g960.footer, html:has(meta[content*="Terms-Conditions"]) .g960.footer{
     background-image: 
     url("https://chabadofbradenton.com/media/images/1358/iUxu13583975.png");
     background-size:100% 100%;
@@ -192,7 +192,7 @@ html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer a{
     color:#fff !important;
 }
 @media only screen and (max-width: 650px){
-    html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer, html:has(meta[content*="Dates-Rates"]) .g960.footer, html:has(meta[content*="About"]) .g960.footer, html:has(meta[content*="Schedule"]) .g960.footer, html:has(meta[content*="Summer-Camp-Registration"]) .g960.footer, html:has(meta[content*="Photos"]) .g960.footer{
+    html:has(meta[content*="Camp-Gan-Israel"]) .g960.footer, html:has(meta[content*="Dates-Rates"]) .g960.footer, html:has(meta[content*="About"]) .g960.footer, html:has(meta[content*="Schedule"]) .g960.footer, html:has(meta[content*="Summer-Camp-Registration"]) .g960.footer, html:has(meta[content*="Photos"]) .g960.footer, html:has(meta[content*="Camp-Scholarship-Form"]) .g960.footer, html:has(meta[content*="Terms-Conditions"]) .g960.footer{
         background-image: 
         url("https://chabadofbradenton.com/media/images/1358/gGfd13583979.png");
         background-size:100% 100%;
@@ -269,23 +269,23 @@ html:has(meta[content*="Camp-Gan-Israel"]) .custom_message{
 
 
  /*children pages*/
- html:has(meta[content*="Dates-Rates"])  #navigation li.parent a.parent, html:has(meta[content*="About"])  #navigation li.parent a.parent, html:has(meta[content*="Schedule"])  #navigation li.parent a.parent, html:has(meta[content*="Summer-Camp-Registration"]) #navigation li.parent a.parent, html:has(meta[content*="Photos"]) #navigation li.parent a.parent,  html:has(meta[content*="Dates-Rates"])  div#chabad_head .chabad_navigator_bar, html:has(meta[content*="About"])  div#chabad_head .chabad_navigator_bar, html:has(meta[content*="Schedule"])  div#chabad_head .chabad_navigator_bar, html:has(meta[content*="Summer-Camp-Registration"]) div#chabad_head .chabad_navigator_bar, html:has(meta[content*="Photos"]) div#chabad_head .chabad_navigator_bar, html:has(meta[content*="Dates-Rates"])  body.mobile .chabad_navigator_bar #menu .item.heading a, html:has(meta[content*="About"])  body.mobile .chabad_navigator_bar #menu .item.heading a, html:has(meta[content*="Schedule"])  body.mobile .chabad_navigator_bar #menu .item.heading a, html:has(meta[content*="Summer-Camp-Registration"]) body.mobile .chabad_navigator_bar #menu .item.heading a, html:has(meta[content*="Photos"]) body.mobile .chabad_navigator_bar #menu .item.heading a {
+ html:has(meta[content*="Dates-Rates"])  #navigation li.parent a.parent, html:has(meta[content*="About"])  #navigation li.parent a.parent, html:has(meta[content*="Schedule"])  #navigation li.parent a.parent, html:has(meta[content*="Summer-Camp-Registration"]) #navigation li.parent a.parent, html:has(meta[content*="Photos"]) #navigation li.parent a.parent, html:has(meta[content*="Camp-Scholarship-Form"]) #navigation li.parent a.parent, html:has(meta[content*="Terms-Conditions"]) #navigation li.parent a.parent,  html:has(meta[content*="Dates-Rates"])  div#chabad_head .chabad_navigator_bar, html:has(meta[content*="About"])  div#chabad_head .chabad_navigator_bar, html:has(meta[content*="Schedule"])  div#chabad_head .chabad_navigator_bar, html:has(meta[content*="Summer-Camp-Registration"]) div#chabad_head .chabad_navigator_bar, html:has(meta[content*="Photos"]) div#chabad_head .chabad_navigator_bar, html:has(meta[content*="Camp-Scholarship-Form"]) div#chabad_head .chabad_navigator_bar, html:has(meta[content*="Terms-Conditions"]) div#chabad_head .chabad_navigator_bar, html:has(meta[content*="Dates-Rates"])  body.mobile .chabad_navigator_bar #menu .item.heading a, html:has(meta[content*="About"])  body.mobile .chabad_navigator_bar #menu .item.heading a, html:has(meta[content*="Schedule"])  body.mobile .chabad_navigator_bar #menu .item.heading a, html:has(meta[content*="Summer-Camp-Registration"]) body.mobile .chabad_navigator_bar #menu .item.heading a, html:has(meta[content*="Photos"]) body.mobile .chabad_navigator_bar #menu .item.heading a, html:has(meta[content*="Camp-Scholarship-Form"]) body.mobile .chabad_navigator_bar #menu .item.heading a, html:has(meta[content*="Terms-Conditions"]) body.mobile .chabad_navigator_bar #menu .item.heading a {
     border-radius:25px !important;
     background-color:#2cdbf8  !important;
  }
 
 
-  html:has(meta[content*="Dates-Rates"]) #navigation li.parent.selected a.parent, html:has(meta[content*="About"]) #navigation li.parent.selected a.parent, html:has(meta[content*="Schedule"]) #navigation li.parent.selected a.parent, html:has(meta[content*="Summer-Camp-Registration"]) #navigation li.parent.selected a.parent, html:has(meta[content*="Photos"]) #navigation li.parent.selected a.parent, html:has(meta[content*="Dates-Rates"]) #navigation li.parent a.parent:hover, html:has(meta[content*="About"]) #navigation li.parent a.parent:hover, html:has(meta[content*="Schedule"]) #navigation li.parent a.parent:hover, html:has(meta[content*="Photos"]) #navigation li.parent a.parent:hover{
+  html:has(meta[content*="Dates-Rates"]) #navigation li.parent.selected a.parent, html:has(meta[content*="About"]) #navigation li.parent.selected a.parent, html:has(meta[content*="Schedule"]) #navigation li.parent.selected a.parent, html:has(meta[content*="Summer-Camp-Registration"]) #navigation li.parent.selected a.parent, html:has(meta[content*="Photos"]) #navigation li.parent.selected a.parent, html:has(meta[content*="Camp-Scholarship-Form"]) #navigation li.parent.selected a.parent, html:has(meta[content*="Terms-Conditions"]) #navigation li.parent.selected a.parent, html:has(meta[content*="Dates-Rates"]) #navigation li.parent a.parent:hover, html:has(meta[content*="About"]) #navigation li.parent a.parent:hover, html:has(meta[content*="Schedule"]) #navigation li.parent a.parent:hover, html:has(meta[content*="Photos"]) #navigation li.parent a.parent:hover, html:has(meta[content*="Camp-Scholarship-Form"]) #navigation li.parent a.parent:hover, html:has(meta[content*="Terms-Conditions"]) #navigation li.parent a.parent:hover{
     color:#364fab !important;
  }
 
  /*remove headers*/
- header.article-header.cf, html:has(meta[content*="Dates-Rates"]) header.article-header.cf, html:has(meta[content*="About"]) header.article-header.cf, html:has(meta[content*="Schedule"]) header.article-header.cf, html:has(meta[content*="Summer-Camp-Registration"]) header.article-header.cf, html:has(meta[content*="Photos"]) header.article-header.cf{
+ header.article-header.cf, html:has(meta[content*="Dates-Rates"]) header.article-header.cf, html:has(meta[content*="About"]) header.article-header.cf, html:has(meta[content*="Schedule"]) header.article-header.cf, html:has(meta[content*="Summer-Camp-Registration"]) header.article-header.cf, html:has(meta[content*="Photos"]) header.article-header.cf, html:has(meta[content*="Camp-Scholarship-Form"]) header.article-header.cf, html:has(meta[content*="Terms-Conditions"]) header.article-header.cf{
     display:none !important;
  }
 
  /*footer*/
- html:has(meta[content*="Dates-Rates"])  .g960.footer a, html:has(meta[content*="About"])  .g960.footer a, html:has(meta[content*="Schedule"])  .g960.footer a, html:has(meta[content*="Summer-Camp-Registration"]) .g960.footer a, html:has(meta[content*="Photos"]) .g960.footer a{
+ html:has(meta[content*="Dates-Rates"])  .g960.footer a, html:has(meta[content*="About"])  .g960.footer a, html:has(meta[content*="Schedule"])  .g960.footer a, html:has(meta[content*="Summer-Camp-Registration"]) .g960.footer a, html:has(meta[content*="Photos"]) .g960.footer a, html:has(meta[content*="Camp-Scholarship-Form"]) .g960.footer a, html:has(meta[content*="Terms-Conditions"]) .g960.footer a{
     color:#364fab !important;
 }
 
@@ -294,17 +294,17 @@ html:has(meta[content*="Camp-Gan-Israel"]) .custom_message{
 /*header*/
 
 @media only screen and (min-width: 651px){
-html:has(meta[content*="Dates-Rates"])  .chabad_header img, html:has(meta[content*="About"])  .chabad_header img, html:has(meta[content*="Schedule"])  .chabad_header img, html:has(meta[content*="Summer-Camp-Registration"]) .chabad_header img, html:has(meta[content*="Photos"]) .chabad_header img{
+html:has(meta[content*="Dates-Rates"])  .chabad_header img, html:has(meta[content*="About"])  .chabad_header img, html:has(meta[content*="Schedule"])  .chabad_header img, html:has(meta[content*="Summer-Camp-Registration"]) .chabad_header img, html:has(meta[content*="Photos"]) .chabad_header img, html:has(meta[content*="Camp-Scholarship-Form"]) .chabad_header img, html:has(meta[content*="Terms-Conditions"]) .chabad_header img{
     height:450px !important;
 }
-    html:has(meta[content*="Dates-Rates"])  #navigation, html:has(meta[content*="About"])  #navigation, html:has(meta[content*="Schedule"])  #navigation, html:has(meta[content*="Summer-Camp-Registration"]) #navigation, html:has(meta[content*="Photos"]) #navigation{
+    html:has(meta[content*="Dates-Rates"])  #navigation, html:has(meta[content*="About"])  #navigation, html:has(meta[content*="Schedule"])  #navigation, html:has(meta[content*="Summer-Camp-Registration"]) #navigation, html:has(meta[content*="Photos"]) #navigation, html:has(meta[content*="Camp-Scholarship-Form"]) #navigation, html:has(meta[content*="Terms-Conditions"]) #navigation{
        margin-top:150px !important;
     }
    
 }
 
 @media only screen and (max-width: 650px){
-    html:has(meta[content*="Dates-Rates"])  .chabad_header img, html:has(meta[content*="About"])  .chabad_header img, html:has(meta[content*="Schedule"])  .chabad_header img, html:has(meta[content*="Summer-Camp-Registration"]) .chabad_header img, html:has(meta[content*="Photos"]) .chabad_header img{
+    html:has(meta[content*="Dates-Rates"])  .chabad_header img, html:has(meta[content*="About"])  .chabad_header img, html:has(meta[content*="Schedule"])  .chabad_header img, html:has(meta[content*="Summer-Camp-Registration"]) .chabad_header img, html:has(meta[content*="Photos"]) .chabad_header img, html:has(meta[content*="Camp-Scholarship-Form"]) .chabad_header img, html:has(meta[content*="Terms-Conditions"]) .chabad_header img{
     display: block;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -316,13 +316,13 @@ html:has(meta[content*="Dates-Rates"])  .chabad_header img, html:has(meta[conten
   }
 }
 /*top line color*/
-html:has(meta[content*="Dates-Rates"]) .cco_templateless_template a, html:has(meta[content*="About"]) .cco_templateless_template a, html:has(meta[content*="Schedule"]) .cco_templateless_template a, html:has(meta[content*="Summer-Camp-Registration"]) .cco_templateless_template a, html:has(meta[content*="Photos"]) .cco_templateless_template a  {
+html:has(meta[content*="Dates-Rates"]) .cco_templateless_template a, html:has(meta[content*="About"]) .cco_templateless_template a, html:has(meta[content*="Schedule"]) .cco_templateless_template a, html:has(meta[content*="Summer-Camp-Registration"]) .cco_templateless_template a, html:has(meta[content*="Photos"]) .cco_templateless_template a, html:has(meta[content*="Camp-Scholarship-Form"]) .cco_templateless_template a, html:has(meta[content*="Terms-Conditions"]) .cco_templateless_template a  {
     color:#2cdbf8 !important;
     }
 
     /*titles*/
     html:has(meta[content*="Dates-Rates"]) h2, html:has(meta[content*="About"]) h2, html:has(meta[content*="Schedule"]) h2,
-    html:has(meta[content*="Summer-Camp-Registration"]) h2, html:has(meta[content*="Photos"]) h2 {
+    html:has(meta[content*="Summer-Camp-Registration"]) h2, html:has(meta[content*="Photos"]) h2, html:has(meta[content*="Camp-Scholarship-Form"]) h2, html:has(meta[content*="Terms-Conditions"]) h2{
         color:#2cdbf8 !important;
     }
 
@@ -337,9 +337,10 @@ html:has(meta[content*="Dates-Rates"]) .cco_templateless_template a, html:has(me
 
 
 
+  
 
-
-
+    
+    
 
 
 
