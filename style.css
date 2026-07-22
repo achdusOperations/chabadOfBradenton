@@ -328,8 +328,8 @@ html:has(meta[content*="Dates-Rates"]) .cco_templateless_template a, html:has(me
 
 
 /*c-teen*/
-html:has(meta[content*="Cteen"]) .about-three__right{
-    display:none !important;
+html:has(meta[content="CTeen - Chabad of Bradenton"]) .about-three__right {
+    display:none!important;
 }
 
 
