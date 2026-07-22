@@ -280,7 +280,7 @@ html:has(meta[content*="Camp-Gan-Israel"]) .custom_message{
  }
 
  /*remove headers*/
- header.article-header.cf, html:has(meta[content*="Dates-Rates"]) header.article-header.cf, html:has(meta[content="About"]) header.article-header.cf, html:has(meta[content*="Schedule"]) header.article-header.cf, html:has(meta[content*="Summer-Camp-Registration"]) header.article-header.cf, html:has(meta[content*="Photos"]) header.article-header.cf, html:has(meta[content*="Camp-Scholarship-Form"]) header.article-header.cf, html:has(meta[content*="Terms-Conditions"]) header.article-header.cf{
+ html:has(meta[content*="Dates-Rates"]) header.article-header.cf, html:has(meta[content="About"]) header.article-header.cf, html:has(meta[content*="Schedule"]) header.article-header.cf, html:has(meta[content*="Summer-Camp-Registration"]) header.article-header.cf, html:has(meta[content*="Photos"]) header.article-header.cf, html:has(meta[content*="Camp-Scholarship-Form"]) header.article-header.cf, html:has(meta[content*="Terms-Conditions"]) header.article-header.cf{
     display:none !important;
  }
 
