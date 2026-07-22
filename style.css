@@ -332,6 +332,10 @@ html:has(meta[content="CTeen - Chabad of Bradenton"]) .about-three__right {
     display:none!important;
 }
 
+html:has(meta[content="CTeen - Chabad of Bradenton"]) .about-three__right{
+    padding:60px 0 !important;
+}
+
 
 
 
